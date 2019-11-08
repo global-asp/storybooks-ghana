@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Ghana is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in English and French, as well as the most widely spoken languages of Ghana.
 ">
 	<link rel="stylesheet" href="/storybooks-ghana/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-ghana/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-ghana/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-ghana/stories/en/0001/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Ghana" href="/storybooks-ghana">
 	<script src="/storybooks-ghana/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -75,16 +78,16 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0001/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-ghana/audio/en/0001/mp3/01.mp3"></audio>
 			<button onclick="switchlang('en,en','en,fr,en')" class="btn btn-lg lang-primary" title="Switch between English and English">en</button>
 			<button onclick="switchlang('en,fr','en,fr,en')" class="btn btn-lg lang-secondary" title="Switch between English and French">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-ghana/css/pencil.svg" alt="Written by"></span> Cornelius Gulere</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-ghana/css/art.svg" alt="Illustrated by"></span> Catherine Groenewald</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-ghana/css/megaphone.svg" alt="Read by"></span> Darshan Soni</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-ghana/css/language.svg" alt="Language"></span> <a href="/storybooks-ghana/stories/en">English</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-ghana/css/level.svg" alt="Level"></span> <a href="/storybooks-ghana/stories/en/level2">Level 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-ghana/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0001/en-0001_tall.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-ghana/css/pencil.svg" alt="Written by"></span> Cornelius Gulere</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-ghana/css/art.svg" alt="Illustrated by"></span> Catherine Groenewald</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-ghana/css/megaphone.svg" alt="Read by"></span> Darshan Soni</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-ghana/css/language.svg" alt="Language"></span> <a href="/storybooks-ghana/stories/en">English</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-ghana/css/level.svg" alt="Level"></span> <a href="/storybooks-ghana/stories/en/level2">Level 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-ghana/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="/0001/en-0001_tall.mp3" type="audio/mpeg"></audio></h3>
 	</div>
 </div>
 <hr>
@@ -99,8 +102,7 @@
 	His hoe was too short.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Sa houe était trop
-courte.
+	Sa houe était trop courte.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -128,8 +130,7 @@ courte.
 	His doorway was too low.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Sa porte d’entrée était
-trop basse.
+	Sa porte d’entrée était trop basse.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -185,8 +186,7 @@ trop basse.
 	His bicycle was too short.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Sa bicyclette était trop
-petite.
+	Sa bicyclette était trop petite.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -214,8 +214,7 @@ petite.
 	This man was too tall!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Cet homme était trop
-grand.
+	Cet homme était trop grand.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -243,8 +242,7 @@ grand.
 	He made a very long hoe handle.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Il fabriqua un long
-manche pour sa houe.
+	Il fabriqua un long manche pour sa houe.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -300,8 +298,7 @@ manche pour sa houe.
 	He made a very long bed.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Il fabriqua un très grand
-lit.
+	Il fabriqua un très grand lit.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -329,8 +326,7 @@ lit.
 	He bought a very high bicycle.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Il acheta une bicyclette
-très haute.
+	Il acheta une bicyclette très haute.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -358,10 +354,7 @@ très haute.
 	He sat on a very high chair. He ate with a very long fork.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Il s’assit sur une chaise
-très haute et mangea
-avec une très grande
-fourchette.
+	Il s’assit sur une chaise très haute et mangea avec une très grande fourchette.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -389,11 +382,7 @@ fourchette.
 	He left his house and lived in a big forest. He lived for many years.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Il quitta sa maison et
-vécut dans une grande
-forêt.
-Il vécut pendant de
-longues années.
+	Il quitta sa maison et vécut dans une grande forêt. Il vécut pendant de longues années.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -442,6 +431,8 @@ longues années.
 	<a class="btn btn-lg" href="/storybooks-ghana/stories/en" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
